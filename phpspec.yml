@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Erp
+        psr4_prefix: Erp
+        src_path: app

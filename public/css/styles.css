@@ -1,0 +1,264 @@
+
+
+
+
+.margin-top-area{
+    margin-top: 20px;
+}
+.student-box-header{
+	width: 100%;
+    float: left;
+	background-color: #23292f;
+    border-bottom: 0 solid #f4f4f4;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    position: relative;
+    padding: 10px 0;
+}
+.student-area{
+	width: 50%;
+	float: left;
+	
+}
+.snt .breadcrumb{
+    list-style: none;
+    background-color: #23292f;
+    border-radius: 4px;
+    float: right;
+    width: 50%;
+}
+.student-box-header .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-right: 5px;
+}
+ul.breadcrumb{
+	padding: 0;
+	margin: 0;
+}
+ul.breadcrumb li{
+	display: inline-block;	
+}
+ul.breadcrumb li a{
+	text-decoration: none;
+	color: #ccc;	
+}
+ul.breadcrumb li.active{
+	color: #1aa;	
+}
+.add-student{
+	padding: 20px 0;
+}
+.admore{
+    padding-bottom: 3px;
+}
+    .box {
+        position: relative;
+        border-radius: 3px;
+        background: #ffffff;
+        border-top: 1px solid #d2d6de;
+        margin-bottom: 20px;
+        width: 100%;
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }
+.class-holder{
+	width: 100%;
+    float: left;
+	background-color: #D9E0E7;
+	padding: 20px;
+	margin:20px 0;
+}
+
+.class-holder .form-group{
+    margin-bottom: 0;
+}
+.class-holder label{
+	/* width: 40%; */
+	float: left;
+	text-align: center;
+	margin-top: 7px;
+}
+.class-holder .form-control{
+    width: 90%;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+
+
+
+
+/*-------------massage css-----------*/
+.massage{
+    background-color: #fff;
+    width: 98%;
+    float: left;
+    margin: 0 1%;
+    padding: 20px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.massage .folder-wrapper{
+    width: 100%;
+    margin-top: 20px;
+
+}
+.massage .folder-title{
+    background-color: #000;
+    padding:10px;
+    color: #fff;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.folder-item{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    border:solid 1px #efefef;
+}
+ul.folder-item li{
+    display: list-item;
+
+}
+ul.folder-item li a{
+    width: 100%;
+    padding:5px 10px;
+    color: #333;
+    display: inline-block;
+}
+ul.folder-item li a:hover{
+    background-color: #F6F6F6;
+    width: 100%;
+}
+ul.folder-item li a:hover{
+    background-color: #F6F6F6;
+    width: 100%;
+}
+
+.massage .favorite-wrapper{
+    width: 100%;
+    border:solid 1px #efefef;
+    padding: 10px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.massage .select-wrapper{
+    width: 100%;
+}
+
+.media .fa-2x {
+    font-size: 8em;
+}
+.fa-man {
+    font-size: 3em;
+}
+.inner-box{
+    background-color: #fff;
+    padding: 15px;
+}
+
+
+.form-inner{
+    width: 100%;
+    float: left;
+    background-color:#D9E0E7;
+    padding:15px 15px 0  15px;
+    margin-bottom: 15px;
+}
+.form-inner .form-group {
+    //margin-bottom: 15px;
+    width: 100%;
+    float: left;
+}
+.form-inner .form-group .control-label {
+    margin-top: 8px;
+}
+
+.nopaddingleft{
+    padding-left: 0;
+}
+.mail .nav-tabs{
+    background-color: #ECF0F5;
+}
+
+
+/*---------view-------*/
+.view-header{
+    background-color: #f8f8f8;
+    border: 1px solid #e2e7eb;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    min-height: 20px;
+    padding: 19px;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.view .breadcrumb{
+    list-style: none;
+    background-color:#f8f8f8;
+    border-radius: 4px;
+    float: right;
+    width: 50%;
+    margin-top: 8px;
+}
+.th-bg{
+    background-color: #374850 ;
+    color: #fff;
+}
+.view-table-holder{
+    background-color: #fff;
+}
+.view .table-bordered>thead>tr>th{
+    border-bottom-width: 1px !important;
+}
+.view .nomargin{
+    margin: 0;
+}
+.view-picture{
+    width:100%;
+}
+
+.view-picture .fa-man {
+    font-size: 5em;
+    padding-top: 7px;
+}
+
+
+
+.view-picture .img-circle{
+    width: 120px;
+    height: 120px;
+    border:10px solid rgba(255, 255, 255, 0.3);
+}
+.view-name{
+    color: #fff;
+    font-style: italic;
+    font-size: 20px;
+}
+.email{
+    margin-top:5px;
+    color: #fff;
+    font-style: italic;
+}

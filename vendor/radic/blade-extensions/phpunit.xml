@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit backupGlobals="false"
+         bootstrap="vendor/autoload.php"
+         verbose="true"
+         timeoutForSmallTests="30"
+         timeoutForMediumTests="50"
+         timeoutForLargeTests="60"
+    >
+  <testsuites>
+    <testsuite name="Blade Extensions">
+      <directory suffix="Test.php">tests</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist addUncoveredFilesFromWhitelist="true">
+      <directory suffix=".php">src</directory>
+    </whitelist>
+  </filter>
+    <env name="APP_ENV" value="testing"/>
+    <env name="CACHE_DRIVER" value="array"/>
+    <env name="SESSION_DRIVER" value="array"/>
+    <env name="QUEUE_DRIVER" value="sync"/>
+
+    <env name="BLADE_EXTENSIONS_EXAMPLE_VIEWS" value="true"/>
+    <env name="BLADE_EXTENSIONS_MARKDOWN_VIEWS" value="true"/>
+    <env name="BLADE_EXTENSIONS_MARKDOWN_ENABLED" value="true"/>
+</phpunit>
+

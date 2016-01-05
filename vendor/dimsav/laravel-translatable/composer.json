@@ -1,0 +1,31 @@
+{
+    "name": "dimsav/laravel-translatable",
+    "description": "A Laravel package for multilingual models",
+    "keywords": ["laravel", "translation", "language", "database"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitrios Savvopoulos",
+            "email": "ds@dimsav.com",
+            "homepage": "http://dimsav.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dimsav\\Translatable\\": "src/Translatable/"
+        },
+        "classmap": [
+            "tests"
+        ]
+    },
+
+    "minimum-stability": "dev"
+}
